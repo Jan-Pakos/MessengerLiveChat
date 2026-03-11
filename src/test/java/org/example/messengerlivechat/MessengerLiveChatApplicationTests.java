@@ -1,7 +1,7 @@
 package org.example.messengerlivechat;
 
 import org.example.messengerlivechat.chat.service.ChatRoomService;
-import org.example.messengerlivechat.chat.web.ChatRoomController;
+import org.example.messengerlivechat.chat.controller.ChatRoomController;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.boot.test.context.SpringBootTest;
