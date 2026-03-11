@@ -1,4 +1,4 @@
-package org.example.messengerlivechat.chat.web;
+package org.example.messengerlivechat.chat.controller;
 
 import org.example.messengerlivechat.chat.service.ChatRoomService;
 import org.junit.jupiter.api.Test;
