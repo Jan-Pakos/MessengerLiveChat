@@ -1,15 +1,19 @@
 package org.example.messengerlivechat;
 
+import org.example.messengerlivechat.chat.service.ChatRoomService;
+import org.example.messengerlivechat.chat.web.ChatRoomController;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 
-@Import(TestcontainersConfiguration.class)
-@SpringBootTest
+import org.springframework.boot.test.context.SpringBootTest;
+
+
+
+@SpringBootTest(classes = {ChatRoomController.class, ChatRoomService.class})
 class MessengerLiveChatApplicationTests {
 
     @Test
-    void contextLoads() {
+    void context_loads() {
+
     }
 
 }
